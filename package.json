@@ -1,18 +1,6 @@
 {
   "name": "estados-brasileiros-fe",
-  "version": "1.0.18",
-  "scripts": {
-    "ng": "ng",
-    "start": "npm run servessr",
-    "build": "npm run build:ssr",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e",
-    "dev:ssr": "ng run estados-brasileiros-fe:serve-ssr",
-    "serve:ssr": "node dist/estados-brasileiros-fe/server/main.js",
-    "build:ssr": "ng build --prod && ng run estados-brasileiros-fe:server:production",
-    "prerender": "ng run estados-brasileiros-fe:prerender"
-  },
+  "version": "1.0.19",
   "private": true,
   "dependencies": {
     "@angular/animations": "~11.2.6",

@@ -136,7 +136,9 @@
         "server": {
           "builder": "@angular-devkit/build-angular:server",
           "options": {
-            "outputPath": "dist/estados-brasileiros-fe/server"
+            "outputPath": "dist/estados-brasileiros-fe/server",
+            "main": "server.ts",
+            "tsConfig": "tsconfig.server.json"
           },
           "configurations": {
             "production": {
@@ -152,19 +154,7 @@
             }
           }
         },
-        "serve-ssr": {
-          "builder": "@nguniversal/builders:ssr-dev-server",
-          "options": {
-            "browserTarget": "estados-brasileiros-fe:build",
-            "serverTarget": "estados-brasileiros-fe:server"
-          },
-          "configurations": {
-            "production": {
-              "browserTarget": "estados-brasileiros-fe:build:production",
-              "serverTarget": "estados-brasileiros-fe:server:production"
-            }
-          }
-        },
+        
         "prerender": {
           "builder": "@nguniversal/builders:prerender",
           "options": {
