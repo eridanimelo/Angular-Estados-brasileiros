@@ -1,0 +1,20 @@
+.sticky {
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+    
+    
+  }
+  
+  .top-header{
+    background-color: #06693a !important;
+    color:#fff;
+    
+  }
+
+  .logo {
+    padding: 0px 5px;
+    font-size: 20px;
+  }
