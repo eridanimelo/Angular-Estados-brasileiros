@@ -1,8 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "cli": {
-    "analytics": "62f5afd8-7acc-4cb7-a809-8aa4fff2cc95"
-  },
+  
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -66,9 +64,7 @@
                   "maximumWarning": "2kb",
                   "maximumError": "4kb"
                 }
-              ],
-              "serviceWorker": true,
-              "ngswConfigPath": "ngsw-config.json"
+              ]
             }
           }
         },

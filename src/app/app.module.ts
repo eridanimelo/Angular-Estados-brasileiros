@@ -33,7 +33,7 @@ import { AdsenseModule } from 'ng2-adsense';
     DialogMapaComponent
   ],
   imports: [
-    BrowserModule.withServerTransition({ appId: 'serverApp' }),
+    BrowserModule,
     BrowserAnimationsModule,
     MatDialogModule,
     FlexLayoutModule,
@@ -50,12 +50,7 @@ import { AdsenseModule } from 'ng2-adsense';
     MatListModule,
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
-    AdsenseModule.forRoot({
-      adClient: 'ca-pub-1004938038234969',
-      adSlot: 1858913140,
-    }),
+    BrowserAnimationsModule
   ],
   
   providers: [],
